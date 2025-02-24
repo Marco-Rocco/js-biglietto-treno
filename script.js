@@ -13,12 +13,11 @@ console.log("l'età del passeggero è" + ' ' + domandaEta + ' ' + "anni")
 
 // creiamo una condizione di esistente tra due fasce di età
 if (domandaEta < 18) {
-    console.log('prezzo finale del biglietto è' + ' ' + '€'+ ((valoreViaggio * 80 ) /100 ).toFixed(2))
+    alert ('prezzo finale del biglietto è' + ' ' + '€'+ ((valoreViaggio * 80 ) /100 ).toFixed(2))
 }
  else if (domandaEta > 65) {
-    console.log('prezzo finale del biglietto è' + ' ' + '€'+ ((valoreViaggio * 60 ) /100 ).toFixed(2))
+    alert ('prezzo finale del biglietto è' + ' ' + '€'+ ((valoreViaggio * 60 ) /100 ).toFixed(2))
 }
 else {
-    console.log('prezzo finale del biglietto è' + ' ' + '€'+ valoreViaggio)
+    alert ('prezzo finale del biglietto è' + ' ' + '€'+ valoreViaggio)
 }
-   
