@@ -11,5 +11,7 @@ const domandaEta = prompt("specifica la tua età in valore numerale, per favore"
 console.log("l'età del passeggero è" + ' ' + domandaEta + ' ' + "anni")
 
 // creiamo una condizione di esistente tra due fasce di età
-
+if (domandaEta < 18) {
+    console.log('prezzo finale del biglietto è' + ' ' + (valoreViaggio * 80 ) /100 )
+}
    
